@@ -8,7 +8,7 @@ const Navbar = () => {
     <header className="sticky flex justify-between items-center gap-2 px-6 h-15 bg-black text-white border-b-4 border-white border-double text-sm ">
       <nav className="flex items-center gap-5">
         <Link href="/">Home</Link>
-        <Link href="/auth/product">Product</Link>
+        <Link href="/product">Product</Link>
         <Link href="/about">About</Link>
       </nav>
       <h1 className="font-bold text-2xl">Amazing Cart</h1>
